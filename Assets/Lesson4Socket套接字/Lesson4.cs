@@ -8,6 +8,8 @@ public class Lesson4 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //
+        int a = 1;
         Socket TCP = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         Socket UDP = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
     }
